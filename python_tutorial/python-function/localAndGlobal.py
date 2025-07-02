@@ -5,5 +5,6 @@ def printA():
     # print(b)
 
 printA()
+print(a)
 print(print())
 b = 20

@@ -20,3 +20,11 @@ print(name)
 # String Membership test
 print('p' in name1)
 print('P' in name2)
+
+# slicing 
+print(name2[1 : 4])
+#negative indexing
+print(name2[-6])
+
+#length of the string
+print(len(name2))

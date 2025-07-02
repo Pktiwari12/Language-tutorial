@@ -27,6 +27,7 @@ print(type(empty_dictionary))
 
 # duplicate items in set
 dup_set = {1, 2, 2, 1, 3, 1, 4, 1, 2, 3, 2}
+print(type(dup_set))
 print(len(dup_set))
 print(dup_set)
 

@@ -9,4 +9,7 @@ print("there is not code within if statemnt. and I am outside of if block")
 # if True :
     
 # print("This cause error because we have not used pass statement.")
+for _ in range(0,5):
+    pass
+print("I am outside of for loop")
 

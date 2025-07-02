@@ -5,7 +5,7 @@ print(ages)
 # list item is very flexible
 list2 = [2, "Apple", [4, "Mango"], True]
 print(list2)
-
+print(list2[2][1])
 # empty list 
 emptyList = []
 print(emptyList)

@@ -24,7 +24,8 @@ def multiplication(*num):
     result = 1
     for value in num:
         result *= value
+    print(type(result))
     return result
 
-print(multiplication(2,3,4,5))
+print(multiplication(2,3,[4,5]))          #  6 * [4,5] = 6 timee 4,5        
 print(multiplication(1,2,3))

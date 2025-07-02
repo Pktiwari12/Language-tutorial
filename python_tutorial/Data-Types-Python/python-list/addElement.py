@@ -15,7 +15,6 @@ print("After inserting guave at index 2")
 print("Price of the fruits")
 print(fruits)
 
-
 # Adding Element to a list from other iterables
 price = [23, 12, 122, 20, [23, 12]]
 print(price)
