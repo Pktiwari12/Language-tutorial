@@ -4,3 +4,6 @@ def sumOfTwo(a , b):
 
 print("Outside of sumOfTwo", "\t", __name__)
 print(sumOfTwo(1,2))
+
+
+# for current or main module , the __name__ is always __main__

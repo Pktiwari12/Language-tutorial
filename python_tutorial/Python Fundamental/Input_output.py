@@ -32,7 +32,8 @@ print("The type of school ",type(school))
 print("The type of className",type(className))
 
 
-
+marks = input("Input marks")
+print(type(marks))
 # the type of className is string
 # so we convert into int
 marks = int(input("Enter your marks \n"))
