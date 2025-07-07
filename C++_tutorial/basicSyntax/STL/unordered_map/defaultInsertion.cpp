@@ -5,6 +5,7 @@ using namespace std;
 int main(){
     unordered_map<char, int>um;
     cout << "before " << "\t"<< um['f']++<<endl;
+    cout<< um['e'];
 
     cout << "after " << "\t" << um['f']++<< endl;
     cout << um.at('f')<< endl;
