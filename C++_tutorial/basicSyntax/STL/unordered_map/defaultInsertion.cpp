@@ -21,4 +21,11 @@ int main(){
         cout << pair.first << "  " << pair.second << endl;
     }
 
+    // cout << "hello";
+    cout << um.count('z');
+    um.insert({'z',1});
+    cout << um.count('z') << endl;
+    cout << um.count('y') << endl;
+    um['y'] = 1;
+    cout << um['y'];
 }
