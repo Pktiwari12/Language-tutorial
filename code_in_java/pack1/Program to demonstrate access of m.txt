@@ -1,0 +1,23 @@
+// Program to demonstrate access of modifiers
+package pack1;
+class Person;
+{
+	public void perpub()
+	{
+		System.out.println("Defined public in person");
+		
+	}
+	private void perpri()
+	{
+		System.out.println("Defined private in person");
+	}
+	protected void perpro()
+	{
+		System.out.println("Defined protected in person");
+	}
+	void perdef()
+	{
+		System.out.println("Defined default in person.);
+	{
+	
+}

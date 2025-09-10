@@ -1,0 +1,40 @@
+// Program to implement the bubble sort
+#include<stdio.h>
+void bubble_sort(int arr[],int size)		
+{
+	int i,round;			// Counter variable
+	for( round =0;round<size-1;round++)
+	{
+		for( i=0;i<size-round;i++)
+		{
+			if(arr[i]>arr[i+1])
+			{
+				int temp = arr[i];
+				arr[i] = arr[i+1];
+				arr[i+1] = temp;
+			}
+		}
+	}
+	printf("Array in bubble sort\n");		// Array Printing in bubble sort function
+	for(int i=0;i<size;i++)
+	{
+		printf("%d\t",arr[i]);
+	}
+	
+}
+int main()
+{
+	int arr[]={5,6,2,3,9,1,0};
+	int length = sizeof(arr)/sizeof(arr[0]);
+	printf("%d lenth\n",length);	 // Here my length is 7
+	printf("\n");
+	bubble_sort(arr,length);
+	printf("\nlength after using the bubble sort function = %d",length);	// but here length is 9("How")
+	printf("\nArray after sorting:-\n");
+	for(int i=0;i<length;i++)
+	{
+		printf("%d\t",arr[i]);
+		
+	}
+	
+}

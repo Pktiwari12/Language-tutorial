@@ -1,0 +1,150 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "FileReadingIntro",
+      "request": "launch",
+      "mainClass": "FileReadingIntro",
+      "projectName": "code_in_java_a19b794d"
+    },
+    {
+      "type": "java",
+      "name": "Output",
+      "request": "launch",
+      "mainClass": "Output",
+      "projectName": "code_in_java_a19b794d"
+    },
+    {
+      "type": "java",
+      "name": "RandomNumbersUsingMathClass",
+      "request": "launch",
+      "mainClass": "Random.RandomNumbersUsingMathClass",
+      "projectName": "code_in_java_a19b794d"
+    },
+    {
+      "type": "java",
+      "name": "Exception_handling",
+      "request": "launch",
+      "mainClass": "Exception_handling",
+      "projectName": "code_in_java_a19b794d"
+    },
+    {
+      "type": "java",
+      "name": "CreateFile",
+      "request": "launch",
+      "mainClass": "File_handling.CreateFile",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "type": "java",
+      "name": "CreationFile",
+      "request": "launch",
+      "mainClass": "CreationFile",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "type": "java",
+      "name": "InsertionINLinkedList",
+      "request": "launch",
+      "mainClass": "InsertionINLinkedList",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "type": "java",
+      "name": "FileHandlingIntro",
+      "request": "launch",
+      "mainClass": "FileHandlingIntro",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "type": "java",
+      "name": "MyCustomException",
+      "request": "launch",
+      "mainClass": "MyCustomException",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "type": "java",
+      "name": "ThisExample",
+      "request": "launch",
+      "mainClass": "ThisExample",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "type": "java",
+      "name": "Exception_handling4",
+      "request": "launch",
+      "mainClass": "Exception_handling4",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "type": "java",
+      "name": "Exception_handling3",
+      "request": "launch",
+      "mainClass": "Exception_handling3",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "type": "java",
+      "name": "Exception_handling2",
+      "request": "launch",
+      "mainClass": "Exception_handling2",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "type": "java",
+      "name": "Exception_handling1",
+      "request": "launch",
+      "mainClass": "Exception_handling1",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "type": "java",
+      "name": "ThreadIntroduction2",
+      "request": "launch",
+      "mainClass": "ThreadIntroduction2",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "type": "java",
+      "name": "AbstractDemo",
+      "request": "launch",
+      "mainClass": "AbstractDemo",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "type": "java",
+      "name": "ThreadIntroduction",
+      "request": "launch",
+      "mainClass": "ThreadIntroduction",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "type": "java",
+      "name": "ExceptionHandlingDemo",
+      "request": "launch",
+      "mainClass": "ExceptionHandlingDemo",
+      "projectName": "code in java_db9a5ad"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Dell/Desktop/Coding/code in java",
+      "program": "c:/Users/Dell/Desktop/Coding/code in java/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
